@@ -1,0 +1,23 @@
+// Nav 
+
+.body-bg{
+    background-image: url(../img/background_squares.jpg);
+    background-attachment: fixed;
+    margin-bottom: 4rem;
+}
+
+.bg-nav-aqua{	
+    background-color: $mainColor;
+}
+
+.text-white{	
+    color: $white;
+    font-size: $textMd;
+        &:hover{	
+        color: $terciaryColor;
+        font-weight: 400;
+        transform: scale(1.1);
+        text-decoration: underline;
+        transition: all 0.75s;
+    }
+}

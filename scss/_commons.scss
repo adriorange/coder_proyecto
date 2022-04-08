@@ -1,0 +1,106 @@
+//variables
+$mainColor: #6fbdb0;
+$secondaryColor: #528e86;
+$terciaryColor: rgb(247, 239, 221);
+$white: #ffffff;
+$black: #000000;
+$grey1: #252827;
+$grey2: #7c8180;
+
+//sizing
+$w-200:200%;
+$w-100:100%;
+$w-20:20%;
+
+
+//clases
+
+
+ //main
+.text-titulos{	
+    color: $secondaryColor;
+    font-size: $textXl;
+}
+
+.text-subt{	
+    color: $mainColor;
+    font-size: $textLg;
+}
+
+.text-med{	
+    color: $grey2;
+    font-size: $textSm;
+}
+
+.text-plain{	
+    color: $grey1;
+    font-size: $textXsm;
+}
+
+.text-enunciado{	
+    color: $black;
+    font-family: 'Montserrat';
+    font-size: $textLg;
+    font-weight: 600;
+}
+
+.text-quote{	
+    color: $black;
+    font-family: 'Philosopher';
+    font-size: $textLg;
+    font-style: italic;
+}
+
+.text-btn{	
+    color: $white;
+    font-size: $textXsm;
+}
+
+.text-bold{	
+    font-size: $textXsm;
+    font-weight: 600;
+}
+
+.text-bold-color{	
+    color: $mainColor;
+    font-size: $textXsm;
+    font-weight: 600;
+}
+
+.btn-aqua{	
+    color: $white;
+    background-color: $mainColor;
+}
+
+.btn-aqua:hover{	
+    color: $white;
+    background-color: $secondaryColor;
+    font-weight: 400;
+    transform: scale(1.1);
+    transition: all 1.5s;
+}
+
+.img-circle{
+    width: 70%;
+    border-radius: 2rem;
+    margin: 5%;
+    .img-circle:hover{	
+        width: 80%;
+        transition: all 1.5s;
+    }
+}
+
+.img-animation{
+    animation-delay: 2s;
+}
+
+.bg-camel{	
+    background-color: $terciaryColor;
+    .bg-camel-light{	
+        background-color: $terciaryColor;
+        opacity: 50%;
+    }
+}
+
+
+

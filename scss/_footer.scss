@@ -1,0 +1,54 @@
+// Footer
+
+footer{	
+    width: 100%;
+    background-color: $white;
+    height: 100px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.anchoFooter{	
+    margin-top: 40px;
+}
+
+.redes{	
+    display: inline-block
+}
+
+.bi-linkedin{	
+    font-size: 40px;
+    text-align: center;
+    margin-left: 8PX;
+    margin-right: 8PX;
+    color: $mainColor;
+    text-decoration: none;
+    &:hover {	
+        color: $secondaryColor; 
+    }
+}
+
+.bi-twitter{	
+    font-size: 40px;
+    text-align: center;
+    margin-left: 8PX;
+    margin-right: 8PX;
+    color: $mainColor;
+    text-decoration: none;
+        &:hover{	
+        color: $secondaryColor
+    }
+}
+
+.bi-instagram{	
+    font-size: 40px;
+    text-align: center;
+    margin-left: 8PX;
+    margin-right: 8PX;
+    color: $mainColor;
+    text-decoration: none;
+    &:hover {	
+        color: $secondaryColor;
+    }
+}
